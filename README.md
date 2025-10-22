@@ -91,4 +91,5 @@ Make sure the backend is running and the frontend points to the correct API URL.
 
 📸 Screenshots
 
-<img width="1438" height="792" alt="Screenshot 2025-10-22 at 12 10 22 PM" src="https://github.com/user-attachments/assets/2027831b-ba58-4442-96d6-138181dace28" />
+
+
