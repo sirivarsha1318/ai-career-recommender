@@ -102,7 +102,7 @@ function App() {
     };
 
     try {
-      const res = await axios.post("http://127.0.0.1:8001/recommend", data);
+      const res = await axios.post("https://ai-career-recommender-production.up.railway.app/recommend", data);
       setResults(res.data.recommendations);
     } catch (err) {
       console.error(err);
