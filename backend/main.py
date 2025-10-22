@@ -46,3 +46,7 @@ def recommend_career(data: UserInput):
         recommendations.append("Data Analyst")
 
     return {"recommendations": recommendations}
+# Add this to your main.py
+@app.get("/")
+def root():
+    return {"message": "AI Career Recommender is live!"}
