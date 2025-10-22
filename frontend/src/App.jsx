@@ -102,7 +102,9 @@ function App() {
     };
 
     try {
+      console.log("Sending data:", data);
       const res = await axios.post("https://ai-career-recommender-production.up.railway.app/recommend", data);
+      console.log("Response:", res.data);
       setResults(res.data.recommendations);
     } catch (err) {
       console.error(err);

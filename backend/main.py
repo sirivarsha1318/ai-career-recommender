@@ -5,7 +5,13 @@ from pydantic import BaseModel
 app = FastAPI()
 
 # Allow frontend connections
-origins = ["*"]
+origins = [
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "http://localhost:3002",
+    "https://ai-career-recommender.netlify.app"
+]
+
 
 
 app.add_middleware(
